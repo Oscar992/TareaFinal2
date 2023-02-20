@@ -1,17 +1,17 @@
 package ejercicio3.clases;
 
 public class Pelicula {
-    final String nombre;
-    final Integer epoca;
-    final Integer duracion;
-    final String genero;
-    final Double precioTicket;
+    private final String nombre;
+    private final int epoca;
+    private final int duracion;
+    private final String genero;
+    private final double precioTicket;
 
     public Pelicula(String nombre,
-                    Integer epoca,
-                    Integer duracion,
+                    int epoca,
+                    int duracion,
                     String genero,
-                    Double precioTicket) {
+                    double precioTicket) {
         this.nombre = nombre;
         this.epoca = epoca;
         this.duracion = duracion;
@@ -23,11 +23,11 @@ public class Pelicula {
         return nombre;
     }
 
-    public Integer getEpoca() {
+    public int getEpoca() {
         return epoca;
     }
 
-    public Integer getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
@@ -35,7 +35,7 @@ public class Pelicula {
         return genero;
     }
 
-    public Double getPrecioTicket() {
+    public double getPrecioTicket() {
         return precioTicket;
     }
 

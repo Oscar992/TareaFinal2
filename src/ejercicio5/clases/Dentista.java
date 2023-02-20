@@ -1,12 +1,12 @@
 package ejercicio5.clases;
 
 public class Dentista extends Persona {
-    Integer numPacientesSinCaries;
-    Integer numPacientesTotales;
-    String nombreConsultorio;
+    private final int numPacientesSinCaries;
+    private final int numPacientesTotales;
+    private final String nombreConsultorio;
 
-    public Dentista(String nombre, String apellido, Integer edad, Integer numPacientesSinCaries,
-                    Integer numPacientesTotales, String nombreConsultorio) {
+    public Dentista(String nombre, String apellido, int edad, int numPacientesSinCaries,
+                    int numPacientesTotales, String nombreConsultorio) {
         super(nombre, apellido, edad);
         this.numPacientesSinCaries = numPacientesSinCaries;
         this.numPacientesTotales = numPacientesTotales;
@@ -14,11 +14,11 @@ public class Dentista extends Persona {
         calcularExito();
     }
 
-    public Integer getNumPacientesSinCaries() {
+    public int getNumPacientesSinCaries() {
         return numPacientesSinCaries;
     }
 
-    public Integer getNumPacientesTotales() {
+    public int getNumPacientesTotales() {
         return numPacientesTotales;
     }
 

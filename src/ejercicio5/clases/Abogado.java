@@ -1,12 +1,12 @@
 package ejercicio5.clases;
 
 public class Abogado extends Persona {
-    Integer numJuiciosGanados;
-    Integer numJuiciosParticipados;
-    String nombreNotaria;
+    private final int numJuiciosGanados;
+    private final int numJuiciosParticipados;
+    private final String nombreNotaria;
 
-    public Abogado(String nombre, String apellido, Integer edad, Integer numJuiciosGanados,
-                   Integer numJuiciosParticipados, String nombreNotaria) {
+    public Abogado(String nombre, String apellido, int edad, int numJuiciosGanados,
+                   int numJuiciosParticipados, String nombreNotaria) {
         super(nombre, apellido, edad);
         this.numJuiciosGanados = numJuiciosGanados;
         this.numJuiciosParticipados = numJuiciosParticipados;
@@ -14,11 +14,11 @@ public class Abogado extends Persona {
         calcularExito();
     }
 
-    public Integer getNumJuiciosGanados() {
+    public int getNumJuiciosGanados() {
         return numJuiciosGanados;
     }
 
-    public Integer getNumJuiciosParticipados() {
+    public int getNumJuiciosParticipados() {
         return numJuiciosParticipados;
     }
 

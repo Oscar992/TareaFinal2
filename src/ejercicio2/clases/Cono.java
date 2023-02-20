@@ -1,11 +1,11 @@
 package ejercicio2.clases;
 
 public class Cono implements IFiguraEspacial {
-    Double altura;
-    Double radio;
-    Double generatriz;
+    private final double altura;
+    private final double radio;
+    private final double generatriz;
 
-    public Cono(Double altura, Double radio, Double generatriz) {
+    public Cono(double altura, double radio, double generatriz) {
         this.altura = altura;
         this.radio = radio;
         this.generatriz = generatriz;

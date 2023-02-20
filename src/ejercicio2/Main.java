@@ -11,24 +11,25 @@ import ejercicio2.clases.GenerarMensajes;
 import java.util.ArrayList;
 
 public class Main {
-
     public static void main(String[] args) {
 
-        var aleatorio = new Aleatorio();
-        var fileManager = new FileManager();
+        final var cubo = new Cubo(Aleatorio.generarRandomDouble(50, 100));
 
-        Cubo cubo = new Cubo(aleatorio.generarRandomDouble(50, 100));
-        Cilindro cilindro = new Cilindro(aleatorio.generarRandomDouble(50, 100), aleatorio.generarRandomDouble(50, 100));
-        Cono cono = new Cono(aleatorio.generarRandomDouble(50, 100), aleatorio.generarRandomDouble(50, 100), aleatorio.generarRandomDouble(50, 100));
-        Esfera esfera = new Esfera(aleatorio.generarRandomDouble(50, 100));
+        final var cilindro = new Cilindro(Aleatorio.generarRandomDouble(50, 100),
+                Aleatorio.generarRandomDouble(50, 100));
 
-        var listaFinal = new ArrayList<String>();
+        final var cono = new Cono(Aleatorio.generarRandomDouble(50, 100), Aleatorio.generarRandomDouble(50, 100),
+                Aleatorio.generarRandomDouble(50, 100));
+
+        final var esfera = new Esfera(Aleatorio.generarRandomDouble(50, 100));
+
+        final var listaFinal = new ArrayList<String>();
 
         listaFinal.add(GenerarMensajes.crearMensaje(cubo));
         listaFinal.add(GenerarMensajes.crearMensaje(cilindro));
         listaFinal.add(GenerarMensajes.crearMensaje(cono));
         listaFinal.add(GenerarMensajes.crearMensaje(esfera));
 
-        fileManager.escribirFile("src/ejercicio2/output/output.txt", listaFinal);
+        FileManager.escribirFile("src/ejercicio2/output/output.txt", listaFinal);
     }
 }

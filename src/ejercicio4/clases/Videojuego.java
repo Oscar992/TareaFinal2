@@ -1,14 +1,14 @@
 package ejercicio4.clases;
 
 public class Videojuego {
-    String nombre;
-    Integer epoca;
-    Double precio;
-    Integer duracion;
-    String genero;
-    String empresa;
+    private final String nombre;
+    private final int epoca;
+    private final double precio;
+    private final int duracion;
+    private final String genero;
+    private final String empresa;
 
-    public Videojuego(String nombre, Integer epoca, Double precio, Integer duracion, String genero, String empresa) {
+    public Videojuego(String nombre, int epoca, double precio, int duracion, String genero, String empresa) {
         this.nombre = nombre;
         this.epoca = epoca;
         this.precio = precio;
@@ -21,15 +21,15 @@ public class Videojuego {
         return nombre;
     }
 
-    public Integer getEpoca() {
+    public int getEpoca() {
         return epoca;
     }
 
-    public Double getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 
-    public Integer getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
@@ -40,7 +40,6 @@ public class Videojuego {
     public String getEmpresa() {
         return empresa;
     }
-
 
     public String toString() {
         return String.format("Nombre: %s\n" +

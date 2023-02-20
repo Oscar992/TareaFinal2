@@ -1,8 +1,8 @@
 package ejercicio1.clases;
 
 public class Color {
-    String nombre;
-    String hexadecimal;
+    private final String nombre;
+    private final String hexadecimal;
 
     public Color(String nombre, String hexadecimal) {
         this.nombre = nombre;

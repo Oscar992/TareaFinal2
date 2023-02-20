@@ -1,12 +1,12 @@
 package ejercicio5.clases;
 
 public abstract class Persona {
-    String nombre;
-    String apellido;
-    Integer edad;
-    Integer exito;
+    private final String nombre;
+    private final String apellido;
+    private final int edad;
+    private final int exito;
 
-    public Persona(String nombre, String apellido, Integer edad) {
+    public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.edad = edad;
@@ -20,11 +20,11 @@ public abstract class Persona {
         return apellido;
     }
 
-    public Integer getEdad() {
+    public int getEdad() {
         return edad;
     }
 
-    public Integer getExito() {
+    public int getExito() {
         return exito;
     }
 

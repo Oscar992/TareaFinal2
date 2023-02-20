@@ -1,9 +1,9 @@
 package ejercicio2.clases;
 
 public class Esfera implements IFiguraEspacial {
-    Double radio;
+    private final double radio;
 
-    public Esfera(Double radio) {
+    public Esfera(double radio) {
         this.radio = radio;
     }
 
@@ -12,12 +12,12 @@ public class Esfera implements IFiguraEspacial {
     }
 
     @Override
-    public Double calcularVolumen() {
+    public double calcularVolumen() {
         return (4 / 3) * Math.PI * Math.pow(radio, 3);
     }
 
     @Override
-    public Double calcularArea() {
+    public double calcularArea() {
         return 4 * Math.PI * Math.pow(radio, 2);
     }
 }

@@ -2,12 +2,12 @@ package ejercicio5.clases;
 
 public class Ingeniero extends Persona {
 
-    Integer numEdificiosConstruidos;
-    Integer numEdificiosPlanificados;
-    String nombreConstructora;
+    private final int numEdificiosConstruidos;
+    private final int numEdificiosPlanificados;
+    private final String nombreConstructora;
 
-    public Ingeniero(String nombre, String apellido, Integer edad, Integer numEdificiosConstruidos,
-                     Integer numEdificiosPlanificados, String nombreConstructora) {
+    public Ingeniero(String nombre, String apellido, int edad, int numEdificiosConstruidos,
+                     int numEdificiosPlanificados, String nombreConstructora) {
         super(nombre, apellido, edad);
         this.numEdificiosConstruidos = numEdificiosConstruidos;
         this.numEdificiosPlanificados = numEdificiosPlanificados;
@@ -15,11 +15,11 @@ public class Ingeniero extends Persona {
         calcularExito();
     }
 
-    public Integer getNumEdificiosConstruidos() {
+    public int getNumEdificiosConstruidos() {
         return numEdificiosConstruidos;
     }
 
-    public Integer getNumEdificiosPlanificados() {
+    public int getNumEdificiosPlanificados() {
         return numEdificiosPlanificados;
     }
 

@@ -13,62 +13,60 @@ import java.util.HashMap;
 
 public class Main {
     public static void main(String[] args) {
-        var fileManager = new FileManager();
-        final var listaColores = fileManager.leerFile("src/Ejercicio1/input/colores.txt");
-        final var listaFiguras = fileManager.leerFile("src/Ejercicio1/input/figuras.txt");
+        final var listaColores = FileManager.leerFile("src/Ejercicio1/input/colores.txt");
+        final var listaFiguras = FileManager.leerFile("src/Ejercicio1/input/figuras.txt");
 
-        var outputList = new ArrayList<String>();
-        var mapaColores = crearColoresMap(listaColores);
+        final var outputList = new ArrayList<String>();
+        final var mapaColores = crearColoresMap(listaColores);
 
         outputList = generarData(listaFiguras, mapaColores);
 
-        fileManager.escribirFile("src/ejercicio1/output/output.txt", outputList);
+        FileManager.escribirFile("src/ejercicio1/output/output.txt", outputList);
     }
 
-    static HashMap<String, String> crearColoresMap(ArrayList<String> lista) {
+    private static Map<String, String> crearColoresMap(List<String> lista) {
         HashMap<String, String> map = new HashMap<>();
         for (String string : lista) {
-            var color = Arrays.asList(string.split(","));
-            var nombre = color.get(0);
-            var codigo = color.get(1);
+            final var color = Arrays.asList(string.split(","));
+            final var nombre = color.get(0);
+            final var codigo = color.get(1);
             map.put(nombre, codigo);
         }
         return map;
     }
 
-    static ArrayList<String> generarData(ArrayList<String> listaFiguras, HashMap<String, String> map) {
+    private static List<String> generarData(List<String> listaFiguras, Map<String, String> map) {
 
-        ArrayList outputList = new ArrayList<String>();
+        final var ArrayList outputList = new ArrayList<String>();
 
         for (String string : listaFiguras) {
-            var figura = Arrays.asList(string.split(","));
-            var colorRelleno = new Color(figura.get(0), map.get(figura.get(0)));
-            var colorBorde = new Color(figura.get(1), map.get(figura.get(1)));
+            final var figura = Arrays.asList(string.split(","));
+            final var colorRelleno = new Color(figura.get(0), map.get(figura.get(0)));
+            final var colorBorde = new Color(figura.get(1), map.get(figura.get(1)));
 
             FiguraGeometrica objFigura = null;
 
             switch (figura.get(6)) {
                 case "CIRCULO":
-                    objFigura = generarCirculo(Double.parseDouble(figura.get(3)), colorRelleno, colorBorde,
-                            Integer.parseInt(figura.get(2)));
+                    outputList.add(generarCirculo(Double.parseDouble(figura.get(3)), colorRelleno, colorBorde,
+                            Integer.parseInt(figura.get(2))));
                     break;
                 case "CUADRADO":
-                    objFigura = generarCuadrado(Double.parseDouble(figura.get(3)), colorRelleno, colorBorde,
-                            Integer.parseInt(figura.get(2)));
+                    outputList.add(generarCuadrado(Double.parseDouble(figura.get(3)), colorRelleno, colorBorde,
+                            Integer.parseInt(figura.get(2))));
                     break;
                 case "TRIANGULO":
-                    objFigura = generarTriangulo(Double.parseDouble(figura.get(3)),
+                    outputList.add(generarTriangulo(Double.parseDouble(figura.get(3)),
                             Double.parseDouble(figura.get(4)),
                             Double.parseDouble(figura.get(5)),
                             colorRelleno, colorBorde,
-                            Integer.parseInt(figura.get(2)));
+                            Integer.parseInt(figura.get(2))));
             }
-            outputList.add(objFigura.colorearFigura());
         }
         return outputList;
     }
 
-    static Circulo generarCirculo(Double radio, Color relleno, Color borde, Integer grosorLinea) {
+    private static Circulo generarCirculo(double radio, Color relleno, Color borde, int grosorLinea) {
         final var circulo = new Circulo(radio, relleno, borde, grosorLinea);
 
         circulo.calcularArea();
@@ -77,7 +75,7 @@ public class Main {
         return circulo;
     }
 
-    static Cuadrado generarCuadrado(Double lado, Color relleno, Color borde, Integer grosorLinea) {
+    private static Cuadrado generarCuadrado(double lado, Color relleno, Color borde, int grosorLinea) {
         final var cuadrado = new Cuadrado(lado, relleno, borde, grosorLinea);
 
         cuadrado.calcularArea();
@@ -86,8 +84,8 @@ public class Main {
         return cuadrado;
     }
 
-    static Triangulo generarTriangulo(Double lado1, Double lado2, Double lado3, Color relleno, Color borde,
-                                      Integer grosorLinea) {
+    private static Triangulo generarTriangulo(double lado1, Double lado2, double lado3, Color relleno, Color borde,
+                                              int grosorLinea) {
         final var triangulo = new Triangulo(lado1, lado2, lado3, relleno, borde, grosorLinea);
 
         triangulo.calcularArea();

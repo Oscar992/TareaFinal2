@@ -6,27 +6,25 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileManager {
+    public static ArrayList<String> leerFile(String path) {
 
-    public ArrayList<String> leerFile(String path) {
-
-        var file = new File(path);
-        var list = new ArrayList<String>();
+        final var file = new File(path);
+        final var list = new ArrayList<String>();
 
         try {
-            var scanner = new Scanner(file);
+            final var scanner = new Scanner(file);
             while (scanner.hasNextLine()) {
                 list.add(scanner.nextLine());
             }
         } catch (Exception exception) {
             System.out.println(exception.getMessage());
         }
-
         return list;
     }
 
-    public void escribirFile(String path, ArrayList<String> lista) {
+    public static void escribirFile(String path, ArrayList<String> lista) {
         try {
-            var fileWriter = new FileWriter(path);
+            final var fileWriter = new FileWriter(path);
 
             for (var string : lista) {
                 fileWriter.write(string + "\n");

@@ -1,15 +1,13 @@
 package ejercicio1.clases;
 
-//import Ejercicio1.Color;
-
 public abstract class FiguraGeometrica {
-    Color colorRelleno;
-    Color colorBorde;
-    Integer grosorLinea;
-    Double perimetro;
-    Double area;
+    private final Color colorRelleno;
+    private finalColor colorBorde;
+    private final int grosorLinea;
+    private final double perimetro;
+    private final double area;
 
-    public FiguraGeometrica(Color colorRelleno, Color colorBorde, Integer grosorLinea) {
+    public FiguraGeometrica(Color colorRelleno, Color colorBorde, int grosorLinea) {
         this.colorRelleno = colorRelleno;
         this.colorBorde = colorBorde;
         this.grosorLinea = grosorLinea;
@@ -44,9 +42,9 @@ public abstract class FiguraGeometrica {
     }
 
     public String colorearFigura() {
-        return (String.format("Coloreo el relleno de color %s en un perimetro de %f Coloreo el borde de color %s " +
-                        "en un area de %f.Para esto he usado un pincel de %d px", colorRelleno.toString(), perimetro,
-                colorBorde.toString(), area, grosorLinea));
+        return String.format("Coloreo el relleno de color %s en un perimetro de %f Coloreo el borde de color %s " +
+                        "en un area de %f.Para esto he usado un pincel de %d px %n", colorRelleno.toString(), perimetro,
+                colorBorde.toString(), area, grosorLinea);
     }
 
     public abstract void calcularPerimetro();

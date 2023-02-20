@@ -1,14 +1,14 @@
 package ejercicio1.clases;
 
 public class Circulo extends FiguraGeometrica {
-    Double radio;
+    private final double radio;
 
-    public Circulo(Double radio, Color colorRelleno, Color colorBorde, int grosorlinea) {
+    public Circulo(double radio, Color colorRelleno, Color colorBorde, int grosorlinea) {
         super(colorRelleno, colorBorde, grosorlinea);
         this.radio = radio;
     }
 
-    public Double getRadio() {
+    public double getRadio() {
         return radio;
     }
 

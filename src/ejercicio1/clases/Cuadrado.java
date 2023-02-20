@@ -1,9 +1,9 @@
 package ejercicio1.clases;
 
 public class Cuadrado extends FiguraGeometrica {
-    Double lado;
+    private final double lado;
 
-    public Cuadrado(Double lado, Color colorRelleno, Color colorBorde, int grosorLinea) {
+    public Cuadrado(double lado, Color colorRelleno, Color colorBorde, int grosorLinea) {
         super(colorRelleno, colorBorde, grosorLinea);
         this.lado = lado;
     }

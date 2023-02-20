@@ -1,7 +1,7 @@
 package ejercicio2.clases;
 
 interface IFiguraEspacial {
-    Double calcularVolumen();
+    public double calcularVolumen();
 
-    Double calcularArea();
+    public double calcularArea();
 }

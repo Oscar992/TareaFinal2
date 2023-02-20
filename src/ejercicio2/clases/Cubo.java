@@ -1,9 +1,9 @@
 package ejercicio2.clases;
 
 public class Cubo implements IFiguraEspacial {
-    Double lado;
+    private final double lado;
 
-    public Cubo(Double lado) {
+    public Cubo(double lado) {
         this.lado = lado;
     }
 
@@ -12,12 +12,12 @@ public class Cubo implements IFiguraEspacial {
     }
 
     @Override
-    public Double calcularVolumen() {
+    public double calcularVolumen() {
         return Math.pow(lado, 3);
     }
 
     @Override
-    public Double calcularArea() {
+    public double calcularArea() {
         return 6 * Math.pow(lado, 2);
     }
 }

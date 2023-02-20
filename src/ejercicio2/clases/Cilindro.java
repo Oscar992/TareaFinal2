@@ -1,10 +1,10 @@
 package ejercicio2.clases;
 
 public class Cilindro implements IFiguraEspacial {
-    Double altura;
-    Double radio;
+    private final double altura;
+    private final double radio;
 
-    public Cilindro(Double altura, Double radio) {
+    public Cilindro(double altura, double radio) {
         this.altura = altura;
         this.radio = radio;
     }
@@ -14,12 +14,12 @@ public class Cilindro implements IFiguraEspacial {
     }
 
     @Override
-    public Double calcularVolumen() {
+    public double calcularVolumen() {
         return Math.PI * Math.pow(radio, 2) * altura;
     }
 
     @Override
-    public Double calcularArea() {
+    public double calcularArea() {
         return 2 * Math.PI * radio * (altura + radio);
     }
 }
