@@ -1,0 +1,6 @@
+Nombre: HABLE CON ELLA Epoca: 2022 Duracion: 177 Genero: ACCION Precio: 13.66
+Nombre: KANDAHAR Epoca: 2001 Duracion: 215 Genero: ACCION Precio: 7.89
+Nombre: DRUNKEN MASTER II Epoca: 1994 Duracion: 133 Genero: ACCION Precio: 10.62
+Nombre: PULP FICTION Epoca: 1994 Duracion: 141 Genero: ACCION Precio: 14.45
+Nombre: EL DECALOGO Epoca: 1989 Duracion: 213 Genero: ACCION Precio: 15.32
+Nombre: NAKAYAN Epoca: 1987 Duracion: 139 Genero: ACCION Precio: 20.21

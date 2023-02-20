@@ -1,0 +1,36 @@
+Nombre: STAR CITIZEN
+ Epoca: 2005
+ Precio: 55.070000
+ Duracion: 11
+ Genero: COMEDIA
+ Empresa: NINTENDO
+Nombre: THE LEGEND OF ZELDA
+ Epoca: 2006
+ Precio: 64.350000
+ Duracion: 60
+ Genero: COMEDIA
+ Empresa: NINTENDO
+Nombre: HOGWARTS LEGACY
+ Epoca: 2008
+ Precio: 59.080000
+ Duracion: 60
+ Genero: COMEDIA
+ Empresa: NINTENDO
+Nombre: HOLLOW KNIGHT: SILKSONG
+ Epoca: 2003
+ Precio: 53.860000
+ Duracion: 6
+ Genero: COMEDIA
+ Empresa: NINTENDO
+Nombre: ASSASSIN'S CREED VALHALLA
+ Epoca: 2016
+ Precio: 58.770000
+ Duracion: 35
+ Genero: COMEDIA
+ Empresa: NINTENDO
+Nombre: HIGH ON LIFE
+ Epoca: 2005
+ Precio: 59.690000
+ Duracion: 9
+ Genero: COMEDIA
+ Empresa: NINTENDO

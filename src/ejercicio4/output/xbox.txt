@@ -1,0 +1,42 @@
+Nombre: BLUE PROTOCOL
+ Epoca: 2009
+ Precio: 50.490000
+ Duracion: 51
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: BEYOND GOOD & EVIL 2
+ Epoca: 2019
+ Precio: 54.600000
+ Duracion: 5
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: DEAD ISLAND 2
+ Epoca: 2013
+ Precio: 60.710000
+ Duracion: 20
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: FINAL FANTASY XVI
+ Epoca: 2020
+ Precio: 52.200000
+ Duracion: 42
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: ELDEN RING
+ Epoca: 2011
+ Precio: 59.860000
+ Duracion: 30
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: GRAND THEFT AUTO V
+ Epoca: 2019
+ Precio: 53.870000
+ Duracion: 35
+ Genero: TERROR
+ Empresa: XBOX
+Nombre: VALHEIM
+ Epoca: 2004
+ Precio: 61.960000
+ Duracion: 38
+ Genero: COMEDIA
+ Empresa: XBOX

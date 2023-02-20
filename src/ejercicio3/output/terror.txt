@@ -1,0 +1,7 @@
+Nombre: BUSCANDO A NEMO Epoca: 2003 Duracion: 140 Genero: TERROR Precio: 16.24
+Nombre: CIUDAD DE DIOS Epoca: 2002 Duracion: 217 Genero: TERROR Precio: 13.78
+Nombre: EL SENOR DE LOS ANILLLOS Epoca: 2003 Duracion: 206 Genero: TERROR Precio: 7.91
+Nombre: ADIOS A MI CONCUBINA Epoca: 1993 Duracion: 163 Genero: TERROR Precio: 7.83
+Nombre: LEOLO Epoca: 1992 Duracion: 111 Genero: TERROR Precio: 18.45
+Nombre: SIN PERDON Epoca: 1992 Duracion: 173 Genero: TERROR Precio: 9.86
+Nombre: EL CODIGO DAVINCI Epoca: 1987 Duracion: 175 Genero: TERROR Precio: 20.0
