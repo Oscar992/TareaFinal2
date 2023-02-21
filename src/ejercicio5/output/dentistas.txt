@@ -1,0 +1,30 @@
+Nombre: ROSALVA
+ Apellido: COROMINAS
+ Edad: 36
+ Exito: 54.285714285714285
+
+Nombre: OFELIA
+ Apellido: CABEZAS
+ Edad: 27
+ Exito: 45.714285714285715
+
+Nombre: DUILIO
+ Apellido: ARIZA
+ Edad: 39
+ Exito: 46.42857142857143
+
+Nombre: RITA
+ Apellido: DE VERDU
+ Edad: 38
+ Exito: 20.0
+
+Nombre: JOSE ANGEL
+ Apellido: UGARTE
+ Edad: 33
+ Exito: 15.151515151515152
+
+Nombre: LISANDO
+ Apellido: CASAL
+ Edad: 27
+ Exito: 36.666666666666664
+

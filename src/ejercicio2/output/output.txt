@@ -1,0 +1,16 @@
+Cubo 
+ Informacion:El cubo cuenta con un lado de 56.107198
+ Area: 18888.10589889247
+ Volumen176626.44909206266
+Cilindro 
+ Informacion:El cilindro con altura  74.919442, y radio 60.531527
+ Area: 51516.17521244293
+ Volumen862397.845335938
+Cono 
+ Informacion:El cono cuenta con altura 53.277356, radio 88.514953 y generatriz 50.185794
+ Area: 29059.389479155492
+ Volumen437123.9146925228
+Esfera 
+ Informacion:La esfera cuenta con radio 63.759713
+ Area: 51086.0790076989
+ Volumen814308.4336347409

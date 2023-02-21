@@ -1,0 +1,6 @@
+Nombre: LA MIRADA DE ULISES Epoca: 1995 Duracion: 196 Genero: COMEDIA Precio: 16.95
+Nombre: CHUNKING EXPRESS Epoca: 1994 Duracion: 199 Genero: COMEDIA Precio: 23.69
+Nombre: LA LISTA DE SCHINDLER Epoca: 1993 Duracion: 142 Genero: COMEDIA Precio: 17.32
+Nombre: UNO DE LOS NUESTROS Epoca: 1990 Duracion: 194 Genero: COMEDIA Precio: 21.22
+Nombre: MUERTE ENTRE LAS FLORES Epoca: 1990 Duracion: 149 Genero: COMEDIA Precio: 10.29
+Nombre: ATLANTIS Epoca: 1987 Duracion: 219 Genero: COMEDIA Precio: 13.43

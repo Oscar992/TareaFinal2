@@ -1,0 +1,50 @@
+Nombre: SELENA
+ Apellido: ARNAIZ
+ Edad: 25
+ Exito: 17.24137931034483
+
+Nombre: LOLA
+ Apellido: SALCEDO
+ Edad: 35
+ Exito: 15.625
+
+Nombre: EMELINA
+ Apellido: VAQUERO
+ Edad: 31
+ Exito: 46.15384615384615
+
+Nombre: LORENZO
+ Apellido: REYES
+ Edad: 28
+ Exito: 46.15384615384615
+
+Nombre: AUREA
+ Apellido: VICENS
+ Edad: 36
+ Exito: 20.0
+
+Nombre: ELBA
+ Apellido: SEVILLANO
+ Edad: 28
+ Exito: 46.15384615384615
+
+Nombre: MARIELA
+ Apellido: LUCENA
+ Edad: 30
+ Exito: 15.625
+
+Nombre: EVANGELINA
+ Apellido: HUERTAS
+ Edad: 30
+ Exito: 48.484848484848484
+
+Nombre: FLOR
+ Apellido: GARAY
+ Edad: 25
+ Exito: 40.0
+
+Nombre: RODRIGO
+ Apellido: ECHEVARRIA
+ Edad: 34
+ Exito: 38.46153846153847
+
