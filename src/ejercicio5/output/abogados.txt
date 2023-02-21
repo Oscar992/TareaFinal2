@@ -1,3 +1,15 @@
-ejercicio5.clases.Abogado@6276ae34
-ejercicio5.clases.Abogado@2669b199
-ejercicio5.clases.Abogado@66d2e7d9
+Nombre: OMAR
+ Apellido: TOLOSA
+ Edad: 27
+ Exito: 58.82352941176471
+
+Nombre: MONICA
+ Apellido: GALLO
+ Edad: 37
+ Exito: 32.142857142857146
+
+Nombre: LAURA
+ Apellido: BAEZA
+ Edad: 26
+ Exito: 51.515151515151516
+

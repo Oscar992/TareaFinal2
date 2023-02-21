@@ -23,12 +23,12 @@ public class Main {
         FileManager.escribirFile("src/ejercicio5/output/ingenieros.txt", ingenieroList);
     }
 
-    private static void generarData(List<String> fileLeido,
+    private static void generarData(List<String> listInput,
                                     List<String> dentistas,
                                     List<String> abogados,
                                     List<String> ingenieros) {
 
-        for (String string : fileLeido) {
+        for (var string : listInput) {
 
             final var persona = new ArrayList<String>();
 

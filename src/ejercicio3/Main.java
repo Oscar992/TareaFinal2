@@ -21,12 +21,12 @@ public class Main {
         FileManager.escribirFile("src/ejercicio3/output/terror.txt", terrorList);
     }
 
-    static void generarData(ArrayList<String> fileLeido,
+    static void generarData(ArrayList<String> listaInput,
                             ArrayList<String> accion,
                             ArrayList<String> comedia,
                             ArrayList<String> terror) {
 
-        for (String string : fileLeido) {
+        for (var string : listaInput) {
 
             final var pelicula = new ArrayList<String>();
 

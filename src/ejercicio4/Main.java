@@ -21,12 +21,12 @@ public class Main {
         FileManager.escribirFile("src/ejercicio4/output/xbox.txt", xboxList);
     }
 
-    private static void generarData(List<String> fileLeido,
+    private static void generarData(List<String> listInput,
                                     List<String> nintendoList,
                                     List<String> playstationList,
                                     List<String> xboxList) {
 
-        for (String string : fileLeido) {
+        for (var string : listInput) {
             final var videojuego = new ArrayList<String>();
 
             for (var i = 0; i < string.split(",").length; i++) {

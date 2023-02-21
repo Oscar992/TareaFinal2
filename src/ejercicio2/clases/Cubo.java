@@ -8,7 +8,7 @@ public class Cubo implements IFiguraEspacial {
     }
 
     public String toString() {
-        return String.format("El cubo cuenta con un lado de %f", lado);
+        return String.format("El cubo cuenta con un lado de %f %n", lado);
     }
 
     @Override

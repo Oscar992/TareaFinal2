@@ -2,12 +2,12 @@ package ejercicio5.clases;
 
 public class Ingeniero extends Persona {
 
-    private final int numEdificiosConstruidos;
-    private final int numEdificiosPlanificados;
+    private final double numEdificiosConstruidos;
+    private final double numEdificiosPlanificados;
     private final String nombreConstructora;
 
-    public Ingeniero(String nombre, String apellido, int edad, int numEdificiosConstruidos,
-                     int numEdificiosPlanificados, String nombreConstructora) {
+    public Ingeniero(String nombre, String apellido, int edad, double numEdificiosConstruidos,
+                     double numEdificiosPlanificados, String nombreConstructora) {
         super(nombre, apellido, edad);
         this.numEdificiosConstruidos = numEdificiosConstruidos;
         this.numEdificiosPlanificados = numEdificiosPlanificados;
@@ -15,11 +15,11 @@ public class Ingeniero extends Persona {
         calcularExito();
     }
 
-    public int getNumEdificiosConstruidos() {
+    public double getNumEdificiosConstruidos() {
         return numEdificiosConstruidos;
     }
 
-    public int getNumEdificiosPlanificados() {
+    public double getNumEdificiosPlanificados() {
         return numEdificiosPlanificados;
     }
 
@@ -29,6 +29,6 @@ public class Ingeniero extends Persona {
 
     @Override
     public void calcularExito() {
-        exito = numEdificiosConstruidos / numEdificiosPlanificados;
+        exito = (numEdificiosConstruidos / numEdificiosPlanificados) * 100;
     }
 }

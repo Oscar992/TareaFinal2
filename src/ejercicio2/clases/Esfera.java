@@ -8,7 +8,7 @@ public class Esfera implements IFiguraEspacial {
     }
 
     public String toString() {
-        return String.format("La esfera cuenta con radio %f", radio);
+        return String.format("La esfera cuenta con radio %f %n", radio);
     }
 
     @Override

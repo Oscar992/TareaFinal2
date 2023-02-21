@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class FileManager {
-    public static ArrayList<String> leerFile(String path) {
+    public static List<String> leerFile(String path) {
 
         final var file = new File(path);
         final var list = new ArrayList<String>();
@@ -22,7 +22,7 @@ public class FileManager {
         return list;
     }
 
-    public static void escribirFile(String path, ArrayList<String> lista) {
+    public static void escribirFile(String path, List<String> lista) {
         try {
             final var fileWriter = new FileWriter(path);
 

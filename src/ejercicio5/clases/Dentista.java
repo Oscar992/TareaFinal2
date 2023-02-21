@@ -1,12 +1,12 @@
 package ejercicio5.clases;
 
 public class Dentista extends Persona {
-    private final int numPacientesSinCaries;
-    private final int numPacientesTotales;
+    private final double numPacientesSinCaries;
+    private final double numPacientesTotales;
     private final String nombreConsultorio;
 
-    public Dentista(String nombre, String apellido, int edad, int numPacientesSinCaries,
-                    int numPacientesTotales, String nombreConsultorio) {
+    public Dentista(String nombre, String apellido, int edad, double numPacientesSinCaries,
+                    double numPacientesTotales, String nombreConsultorio) {
         super(nombre, apellido, edad);
         this.numPacientesSinCaries = numPacientesSinCaries;
         this.numPacientesTotales = numPacientesTotales;
@@ -14,11 +14,11 @@ public class Dentista extends Persona {
         calcularExito();
     }
 
-    public int getNumPacientesSinCaries() {
+    public double getNumPacientesSinCaries() {
         return numPacientesSinCaries;
     }
 
-    public int getNumPacientesTotales() {
+    public double getNumPacientesTotales() {
         return numPacientesTotales;
     }
 
@@ -28,6 +28,6 @@ public class Dentista extends Persona {
 
     @Override
     public void calcularExito() {
-        exito = numPacientesSinCaries / numPacientesTotales;
+        exito = (numPacientesSinCaries / numPacientesTotales) * 100;
     }
 }

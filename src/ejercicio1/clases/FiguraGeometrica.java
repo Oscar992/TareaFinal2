@@ -2,7 +2,7 @@ package ejercicio1.clases;
 
 public abstract class FiguraGeometrica {
     private final Color colorRelleno;
-    private finalColor colorBorde;
+    private final Color colorBorde;
     private final int grosorLinea;
     private final double perimetro;
     private final double area;

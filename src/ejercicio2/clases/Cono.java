@@ -12,7 +12,7 @@ public class Cono implements IFiguraEspacial {
     }
 
     public String toString() {
-        return String.format("El cono cuenta con altura %f, radio %f y generatriz %f", altura, radio, generatriz);
+        return String.format("El cono cuenta con altura %f, radio %f y generatriz %f %n", altura, radio, generatriz);
     }
 
     @Override

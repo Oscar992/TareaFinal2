@@ -4,7 +4,7 @@ public abstract class Persona {
     private final String nombre;
     private final String apellido;
     private final int edad;
-    private final int exito;
+    private final double exito;
 
     public Persona(String nombre, String apellido, int edad) {
         this.nombre = nombre;
@@ -24,8 +24,15 @@ public abstract class Persona {
         return edad;
     }
 
-    public int getExito() {
+    public double getExito() {
         return exito;
+    }
+
+    public String toString() {
+        return String.format("Nombre: " + nombre + "%n" +
+                " Apellido: " + apellido + "%n" +
+                " Edad: " + edad + "%n" +
+                " Exito: " + exito + "%n");
     }
 
     public abstract void calcularExito();

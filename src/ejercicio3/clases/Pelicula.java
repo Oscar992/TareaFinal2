@@ -40,10 +40,10 @@ public class Pelicula {
     }
 
     public String toString() {
-        return String.format("Nombre: " + nombre +
-                " Epoca: " + epoca +
-                " Duracion: " + duracion +
-                " Genero: " + genero +
-                " Precio: " + precioTicket);
+        return String.format("Nombre: " + nombre + "%n" +
+                " Epoca: " + epoca + "%n" +
+                " Duracion: " + duracion + "%n" +
+                " Genero: " + genero + "%n" +
+                " Precio: " + precioTicket + "%n");
     }
 }

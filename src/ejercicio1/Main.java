@@ -25,8 +25,8 @@ public class Main {
     }
 
     private static Map<String, String> crearColoresMap(List<String> lista) {
-        HashMap<String, String> map = new HashMap<>();
-        for (String string : lista) {
+        final var map = new HashMap<String, String>();
+        for (var string : lista) {
             final var color = Arrays.asList(string.split(","));
             final var nombre = color.get(0);
             final var codigo = color.get(1);
@@ -43,8 +43,6 @@ public class Main {
             final var figura = Arrays.asList(string.split(","));
             final var colorRelleno = new Color(figura.get(0), map.get(figura.get(0)));
             final var colorBorde = new Color(figura.get(1), map.get(figura.get(1)));
-
-            FiguraGeometrica objFigura = null;
 
             switch (figura.get(6)) {
                 case "CIRCULO":
